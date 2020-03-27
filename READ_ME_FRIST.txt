@@ -49,3 +49,5 @@ while True:
     if hashlib.blake2b(password.encode()).hexdigest()==correct:
         print("Password: ", password)
         break
+        
+There are a lot better ways to do this though.
